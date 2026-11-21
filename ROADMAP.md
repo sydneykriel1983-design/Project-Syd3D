@@ -1,43 +1,39 @@
 # Project Syd3D Roadmap
 
-**Status:** Initial outcome-oriented sequence; no dates promised.
+**Status:** Updated for the Blender-based direction; no dates promised.
 
 ## Stage 0 — Foundations
 
-Clarify vision and scope, identify major unknowns, choose the first workflow to prototype, and establish repository habits.
+**Complete:** Project vision and working principles are documented. Blender is selected as the host foundation for the first usable workflow, avoiding a reimplementation of its viewport and core mesh tools.
 
-**Exit:** Syd confirms the direction and first testable workflow.
+## Stage 1 — Blender workflow prototype
 
-## Stage 1 — Technical feasibility
+**In progress:** Original Syd3D extension panel for Blender 5.3. Left-drag box selection, Blender navigation, component selection, native transforms and bevel, Boolean modifiers, and NURBS creation are grouped into one Syd3D workflow.
 
-Compare language, UI, geometry, and viewport options; verify license and packaging implications; prototype selection, camera navigation, and a simple geometry operation on Windows; document evidence and recommendations.
+**Exit:** Syd can launch the Syd3D profile and complete a short model edit using familiar Blender behavior. Fix rough edges as a coherent interaction pass rather than adding isolated buttons without validation.
 
-**Exit:** Evidence supports a bounded prototype and initial stack.
+## Stage 2 — Modeling foundation
 
-## Stage 2 — First usable modeling slice
+Refine the core Blender workflow around selection, object/component movement, scale, bevel/chamfer, booleans, undo, and save/reopen. Use the purchased add-ons as workflow references while implementing Syd3D-authored integration and tools.
 
-Candidate scope: create/select/transform/delete a simple object, navigate the viewport, undo/redo common actions, save and reopen a project, and receive clear error feedback.
+**Exit:** Syd can create, revise, and save a representative concept model without needing repeated setup instructions.
 
-**Exit:** Syd completes a small task, saves and reopens it, then gives interaction feedback.
+## Stage 3 — Precision geometry
 
-## Stage 3 — Core modeling workflow
+Research and prototype a Plasticity-like NURBS/B-rep workflow that complements Blender. Be explicit about conversion, topology, and interchange limits; do not present Blender NURBS surfaces as solid CAD bodies.
 
-Grow the validated workflow with contextual actions, precision entry, booleans, bevel/chamfer operations, and an initial mesh or precision-geometry path. Scope depends on technical findings and Syd's feedback.
-
-**Exit:** A representative concept model can be built and revised coherently.
+**Exit:** A representative precision feature can be edited and carried into the Blender scene with predictable results.
 
 ## Stage 4 — Delivery workflows
 
-Explore validated interchange, print-oriented checks, scale and units, materials, and presentation rendering.
+Add validated interchange, units and scale checks, print-oriented mesh validation, materials, and presentation rendering.
 
-**Exit:** A model can be exported for a selected workflow with clear validation and limitations.
+**Exit:** A concept can be exported for a chosen workflow with clear feedback about scale and conversion.
 
 ## Stage 5 — Broader creative environment
 
-Consider richer rendering, animation, additional geometry workflows, workspace customization, and scripting after the core modeling experience is dependable.
+After modeling and precision workflows are dependable, consider richer rendering, animation, more workspace customization, and other creative tools.
 
 ## Ongoing
 
-Protect data, measure responsiveness, investigate failures, align documents with behavior, use Syd's feedback to reprioritize, and avoid complexity that harms clarity or reliability.
-
-Revisit this roadmap after each user test and technical decision. Listed ideas are not implementation promises.
+Keep the scope tied to Syd's actual modeling flow. Prefer cohesive improvements that reduce repetitive setup, preserve undo, and make errors recoverable.

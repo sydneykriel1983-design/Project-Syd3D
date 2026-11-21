@@ -2,6 +2,8 @@ Copyright (c) 2026 Project Syd3D
 
 All rights reserved.
 
-This repository and its contents are made available for viewing through GitHub. No license is granted to use, reproduce, modify, distribute, sublicense, or create derivative works from the contents of this repository, except where applicable law requires otherwise or the copyright holder gives prior written permission.
+Except for the separately licensed material identified below, this repository and its contents are made available for viewing through GitHub. No license is granted to use, reproduce, modify, distribute, sublicense, or create derivative works from the contents of this repository, except where applicable law requires otherwise or the copyright holder gives prior written permission.
+
+The original Blender extension in `blender-addon/syd3d_workflow/` is separately licensed under GNU General Public License, version 3 or (at your option) any later version. See that folder's `LICENSE` file.
 
 Third-party components, if added later, remain subject to their own licenses.

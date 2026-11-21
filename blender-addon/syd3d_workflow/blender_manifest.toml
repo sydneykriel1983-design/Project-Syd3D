@@ -1,0 +1,10 @@
+schema_version = "1.0.0"
+id = "syd3d_workflow"
+version = "0.1.0"
+name = "Syd3D Workflow"
+tagline = "Blender-native modeling tools in a Syd3D workspace"
+maintainer = "Project Syd3D"
+type = "add-on"
+blender_version_min = "5.3.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["3D View", "Modeling"]

@@ -1,30 +1,32 @@
 # Project Syd3D
 
-Project Syd3D is a personal project to create a comfortable, capable 3D creative environment for conceptual modeling, rendering, animation, and 3D printing.
+Project Syd3D is a personal 3D modeling environment built around Syd's workflow. The working direction is now **Blender as the application foundation**, with original Syd3D menus and workflow improvements layered on top of Blender's native tools.
 
-The intended experience combines the freedom of mesh modeling with precision geometry such as NURBS, while keeping common actions direct, contextual, and recoverable. The project is designed around Syd's workflow.
+The goal is to make mesh modeling, precision geometry, rendering, animation, and 3D printing feel direct and approachable. Blender provides the mature viewport, selection, transforms, mesh editing, and modifier foundation; Syd3D adds an opinionated workspace around those capabilities.
 
 ## Status
 
-**Stage:** Discovery and foundations  
-**Implementation:** Not started  
-**Platform direction:** Windows first, subject to technical validation  
-**Native project extension:** `.syd` is a proposal, not yet a file specification
+**Stage:** Blender-based workflow prototype  
+**Current implementation:** Syd3D Workflow extension for Blender 5.3  
+**Platform:** Windows first  
+**Native Syd3D project format:** Not started; Blender files are the working project format for this prototype
 
-Features described in project documents are goals, not claims that they are implemented.
+The extension is an early workflow layer, not a finished product. Blender's NURBS curves and surfaces are not Plasticity-style solid B-rep bodies.
+
+## Try the Blender extension
+
+See [the extension guide](blender-addon/syd3d_workflow/README.md) for controls and install notes. Its original Syd3D panel groups native Blender selection, transforms, bevel, booleans, and NURBS creation. Left drag is assigned to box selection; Blender's middle mouse navigation remains in place.
+
+Purchased add-ons are used as locally installed workflow references. Their source code and bundled assets are not included in this repository.
 
 ## Start here
 
-- [Vision](VISION.md) — purpose, audience, outcomes, and scope
-- [Constitution](CONSTITUTION.md) — principles for product and engineering decisions
-- [Initial architecture](ARCHITECTURE.md) — proposed boundaries and unresolved choices
-- [Roadmap](ROADMAP.md) — stages from validation to usable software
+- [Vision](VISION.md) — purpose, outcomes, and scope
+- [Constitution](CONSTITUTION.md) — product and engineering principles
+- [Architecture](ARCHITECTURE.md) — current Blender-hosted direction and boundaries
+- [Roadmap](ROADMAP.md) — stages from workflow prototype to a dependable modeling environment
 - [Contributing](CONTRIBUTING.md) — proposing and reviewing changes
 - [AI contributor guide](AI_CONTRIBUTOR_GUIDE.md) — guidance for AI-assisted work
 - [Documentation map](docs/README.md) — organized project documentation
-- [This is how we started](This%20is%20how%20we%20started.md) — conversation context that informed the project
-- [License](LICENSE) — current all-rights-reserved notice
-
-## Guiding intent
-
-Help Syd turn an image in mind into a useful 3D object with minimal friction. First validate a small workflow and technical foundations before committing to a stack or promising advanced features.
+- [This is how we started](This%20is%20how%20we%20started.md) — conversation context
+- [License](LICENSE) — repository terms and the extension's separate license
